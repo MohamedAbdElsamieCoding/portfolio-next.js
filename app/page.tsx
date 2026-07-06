@@ -1,5 +1,6 @@
 import Hero from "@/components/home/Hero";
 import SelectedWorks from "@/components/home/SelectedWorks";
+import Summary from "@/components/home/Summary";
 import TechStack from "@/components/home/TechStack";
 
 export default function Home() {
@@ -8,6 +9,7 @@ export default function Home() {
       <Hero />
       <TechStack />
       <SelectedWorks />
+      <Summary />
     </div>
   );
 }

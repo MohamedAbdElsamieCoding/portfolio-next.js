@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { LuArrowRight } from "react-icons/lu";
 
 const SelectedWorks = () => {
   const projects = [
@@ -46,7 +47,7 @@ const SelectedWorks = () => {
       image: "/auteur-cinema.jpg",
       alt: "Movies search website",
       technologies: ["React 19", "TypeScript", "TMDB API", "Firebase", "Vite"],
-      href: "/projects/movies-search",
+      href: "/projects/auteur-cinema.jpg",
     },
   ];
 
@@ -113,9 +114,10 @@ const SelectedWorks = () => {
 
               <Link
                 href={project.href}
-                className="mt-2 text-sm font-semibold tracking-wider text-primary underline"
+                className="flex items-end gap-1 mt-2 text-sm font-semibold tracking-wider text-primary underline"
               >
-                View case study
+                <p className="text-sm font-bold">View case study</p>
+                <LuArrowRight className="text-sm"/>
               </Link>
             </div>
           </article>
