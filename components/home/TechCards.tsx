@@ -24,7 +24,7 @@ const TechCards = () => {
     },
   ];
   return (
-    <div className="p-8 flex gap-4 items-start">
+    <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
       {badges.map(({ icon: Icon, title, bg, iconColor, description }) => (
         <div
           key={title}

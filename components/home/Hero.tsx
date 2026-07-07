@@ -1,5 +1,5 @@
-import Image from "next/image";
 import { LuQuote } from "react-icons/lu";
+import TechOrbit from "./TechOrbit";
 
 const Hero = () => {
   return (
@@ -39,12 +39,7 @@ const Hero = () => {
         </div>
       </div>
       <div className="hidden relative col-span-1 md:flex items-center justify-center">
-        <Image
-          alt="profile"
-          src="/profile.png"
-          fill
-          className="aspect-square object-cover rounded-2xl border border-secondary dark:border-primary shadow-2xl/50 shadow-secondary dark:shadow-lg/40 dark:shadow-primary"
-        />
+        <TechOrbit />
       </div>
     </section>
   );

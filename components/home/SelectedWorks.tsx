@@ -47,7 +47,7 @@ const SelectedWorks = () => {
       image: "/auteur-cinema.jpg",
       alt: "Movies search website",
       technologies: ["React 19", "TypeScript", "TMDB API", "Firebase", "Vite"],
-      href: "/projects/auteur-cinema.jpg",
+      href: "/projects/auteur-cinema",
     },
   ];
 
@@ -117,7 +117,7 @@ const SelectedWorks = () => {
                 className="flex items-end gap-1 mt-2 text-sm font-semibold tracking-wider text-primary underline"
               >
                 <p className="text-sm font-bold">View case study</p>
-                <LuArrowRight className="text-sm"/>
+                <LuArrowRight className="text-sm" />
               </Link>
             </div>
           </article>

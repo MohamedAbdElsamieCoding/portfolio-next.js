@@ -8,8 +8,8 @@ const Footer = () => {
   ];
   return (
     <footer className="border-t border-border bg-surface">
-      <div className="relative flex justify-between px-4 md:px-10 py-4">
-        <Link href="/" className="text-xl font-bold text-primary">
+      <div className="relative flex flex-col md:flex-row justify-between px-4 md:px-10 py-4">
+        <Link href="/" className="text-lg md:text-xl font-bold text-primary">
           Mohamed Amr
         </Link>
         <nav className="hidden md:block">
@@ -21,7 +21,7 @@ const Footer = () => {
             ))}
           </ul>
         </nav>
-        <p className="text-sm font-semibold text-secondary/50 uppercase">
+        <p className="text-xs md:text-sm font-semibold text-secondary/50 uppercase">
           © 2026 Frontend_Developer . ALL RIGHTS RESERVED.
         </p>
       </div>

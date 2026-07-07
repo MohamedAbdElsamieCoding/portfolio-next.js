@@ -17,7 +17,10 @@ const Header = () => {
   return (
     <header className="border-b border-border bg-surface">
       <div className="relative flex justify-between px-4 md:px-10 py-4">
-        <Link href="/" className="text-xl font-bold text-primary">
+        <Link
+          href="/"
+          className=" text-xl font-bold text-primary/80 hover:text-primary transition-all"
+        >
           Mohamed Amr
         </Link>
         <nav className="hidden md:block">
@@ -41,7 +44,7 @@ const Header = () => {
           </button>
         </div>
         {isMenuOpen && (
-          <nav className="absolute left-0 top-full z-50 w-full bg-surface/60 px-4 py-5 md:hidden">
+          <nav className="absolute left-0 top-full z-50 w-full bg-surface px-4 py-5 md:hidden">
             <ul className="flex flex-col gap-5 text-secondary">
               {navLinks.map((item) => (
                 <li key={item.title}>
